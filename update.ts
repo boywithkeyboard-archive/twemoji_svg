@@ -3,8 +3,12 @@ import { ensureDir } from 'fs'
 import { log } from 'drgn'
 
 async function getEmojis() {
+  const tags = await (await fetch(
+    'https://api.github.com/repos/jdecked/twemoji/tags',
+  )).json()
+
   const result = await (await fetch(
-    'https://api.github.com/repos/jdecked/twemoji/git/trees/main',
+    `https://api.github.com/repos/jdecked/twemoji/git/trees/${tags[0].name}`,
   )).json()
 
   const sha1 =
