@@ -1,0 +1,32 @@
+name: 'update'
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 16 * * *' # 4pm, daily
+
+jobs:
+  update:
+    runs-on: 'ubuntu-latest'
+
+    steps:
+      - uses: 'actions/checkout@v3'
+
+      - uses: 'denoland/setup-deno@v1'
+        with:
+          deno-version: 'v1.x'
+
+      - name: 'update files'
+        run: deno task update
+
+      - name: 'create pull request'
+        uses: 'peter-evans/create-pull-request@v4'
+        with:
+          assignees: 'boywithkeyboard'
+          reviewers: 'boywithkeyboard'
+          token: '${{ secrets.GITHUB_TOKEN }}'
+          title: 'refactor: update files'
+          author: 'GitHub <noreply@github.com>'
+          commit-message: 'refactor: update files'
+          delete-branch: true
+          branch: 'update'
