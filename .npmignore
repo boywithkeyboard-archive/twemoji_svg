@@ -1,0 +1,12 @@
+.github
+.vscode
+files
+.gitattributes
+.npmignore
+.npmrc
+deno.json
+deno.lock
+postPublish.ts
+prePublish.ts
+update.ts
+worker.ts
