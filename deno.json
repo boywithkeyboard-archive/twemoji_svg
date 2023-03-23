@@ -18,6 +18,6 @@
   },
   "tasks": {
     "update": "deno run -A update.ts",
-    "publish": "deno task update && npm publish"
+    "publish": "deno run -A prePublish.ts && npm publish && deno run -A postPublish.ts"
   }
 }
