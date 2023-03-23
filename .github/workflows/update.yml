@@ -28,5 +28,6 @@ jobs:
           title: 'refactor: update files'
           author: 'GitHub <noreply@github.com>'
           commit-message: 'refactor: update files'
+          body: 'Updated files to the latest Twemoji version.'
           delete-branch: true
           branch: 'update'
