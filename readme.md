@@ -3,8 +3,6 @@
 > The latest optimized SVG files for
 > [Twemoji](https://github.com/jdecked/twemoji).
 
-### e.g.
-
 #### CSS
 
 ```css
