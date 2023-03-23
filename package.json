@@ -1,0 +1,16 @@
+{
+  "name": "@twemoji/svg",
+  "version": "0.1.0",
+  "description": "The latest optimized SVG files for Twemoji.",
+  "author": "Samuel Kopp (https://samuelkopp.de)",
+  "license": "MIT",
+  "keywords": [
+    "front-end",
+    "emojis",
+    "twemoji",
+    "svg"
+  ],
+  "repository": "azurystudio/twemoji-svg",
+  "bugs": "https://github.com/azurystudio/twemoji-svg/issues",
+  "homepage": "https://github.com/azurystudio/twemoji-svg#readme"
+}
