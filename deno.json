@@ -10,12 +10,6 @@
       "singleQuote": true
     }
   },
-  "imports": {
-    "drgn": "https://deno.land/x/drgn@v0.10.1/mod.ts",
-    "fmt": "https://deno.land/std@v0.181.0/fmt/colors.ts",
-    "fs": "https://deno.land/std@v0.181.0/fs/ensure_dir.ts",
-    "svgo": "https://esm.sh/svgo@3.0.2?pin=v112"
-  },
   "tasks": {
     "update": "deno run -A update.ts",
     "publish": "deno run -A prePublish.ts && npm publish && deno run -A postPublish.ts"

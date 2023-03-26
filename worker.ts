@@ -1,4 +1,4 @@
-import { optimize } from 'svgo'
+import { optimize } from 'https://esm.sh/svgo@3.0.2?pin=v112'
 
 self.onmessage = async ({ data }) => {
   for (const { path } of data.emojis) {
