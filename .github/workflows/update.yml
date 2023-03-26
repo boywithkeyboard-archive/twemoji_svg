@@ -22,12 +22,11 @@ jobs:
       - name: 'create pull request'
         uses: 'peter-evans/create-pull-request@v4'
         with:
-          assignees: 'boywithkeyboard'
           reviewers: 'boywithkeyboard'
           token: '${{ secrets.GITHUB_TOKEN }}'
-          title: 'refactor: update files'
+          title: 'refactor: update emojis'
           author: 'GitHub <noreply@github.com>'
-          commit-message: 'refactor: update files'
+          commit-message: 'refactor: update emojis'
           body: 'Updated files to the latest Twemoji version.'
           delete-branch: true
           branch: 'update'
