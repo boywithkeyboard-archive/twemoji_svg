@@ -5,12 +5,10 @@
   "author": "Samuel Kopp (https://samuelkopp.de)",
   "license": "MIT",
   "keywords": [
-    "front-end",
-    "emojis",
     "twemoji",
     "svg"
   ],
-  "repository": "boywithkeyboard/twemoji-svg",
-  "bugs": "https://github.com/boywithkeyboard/twemoji-svg/issues",
-  "homepage": "https://github.com/boywithkeyboard/twemoji-svg#readme"
+  "repository": "boywithkeyboard/twemoji_svg",
+  "bugs": "https://github.com/boywithkeyboard/twemoji_svg/issues",
+  "homepage": "https://github.com/boywithkeyboard/twemoji_svg#readme"
 }
