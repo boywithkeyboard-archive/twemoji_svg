@@ -1,7 +1,6 @@
 ## @twemoji/svg
 
-> The latest optimized SVG files for
-> [Twemoji](https://github.com/jdecked/twemoji).
+### Usage
 
 #### CSS
 
@@ -17,7 +16,7 @@
 <img src="https://cdn.jsdelivr.net/npm/@twemoji/svg@latest/1f310.svg" />
 ```
 
-#### React
+#### JavaScript
 
 ```bash
 npm i @twemoji/svg
@@ -30,3 +29,8 @@ export function App() {
   return <img src={src} />
 }
 ```
+
+### Versioning
+
+- **Minor Updates (x.Y.z)** for updating SVG files.
+- **Patch Updates (x.y.Z)** for updating library (readme, license, etc.).
