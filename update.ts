@@ -1,6 +1,6 @@
-import { gray, white } from 'https://deno.land/std@v0.184.0/fmt/colors.ts'
-import { ensureDir } from 'https://deno.land/std@v0.184.0/fs/ensure_dir.ts'
-import { log } from 'https://deno.land/x/drgn@v0.10.2/mod.ts'
+import { gray, white } from 'https://deno.land/std@0.204.0/fmt/colors.ts'
+import { ensureDir } from 'https://deno.land/std@0.204.0/fs/ensure_dir.ts'
+import { log } from 'https://deno.land/x/drgn@v0.11.1/mod.ts'
 
 async function getEmojis() {
   const tags = await (await fetch(
