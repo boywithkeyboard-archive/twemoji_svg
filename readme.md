@@ -32,5 +32,6 @@ export function App() {
 
 ### Versioning
 
-- **Minor Updates (x.Y.z)** for updating SVG files.
-- **Patch Updates (x.y.Z)** for updating library (readme, license, etc.).
+- **Major Updates (X.y.z)** for adding/revising SVG files according to the Unicode specification.
+- **Minor Updates (x.y.z)** for revising SVG files.
+- **Patch updates (x.y.Z)** for updating the library (readme, license, etc.).
