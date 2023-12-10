@@ -1,7 +1,7 @@
 {
   "name": "@twemoji/svg",
-  "version": "0.1.2",
-  "description": "The latest optimized SVG files for Twemoji.",
+  "version": "15.0.0",
+  "description": "The latest optimized SVG files for jdecked's Twemoji.",
   "author": "Samuel Kopp (https://samuelkopp.de)",
   "license": "MIT",
   "keywords": [
